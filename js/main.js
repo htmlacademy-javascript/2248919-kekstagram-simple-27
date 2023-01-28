@@ -1,9 +1,4 @@
-function strlength(str, maxlength){
-    if (str.length === maxlength){
-        return true
-    }else{
-        return false
-    }
+function strlength(str, maxlength) {
+  return str.length === maxlength;
 }
-console.log(strlength("Приве", 6))
-
+strlength("Привет", 7);
